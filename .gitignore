@@ -1,0 +1,136 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+google-services.json
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+app-example
+# Android/IntelliJ
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+
+# Bundle artifacts
+*.jsbundle
+
+# Node modules and yarn/npm logs
+node_modules/
+*.log
+
+# Expo-specific
+.expo/
+.expo-shared/
+
+# Metro bundler cache
+.metro/
+dist/
+web-build/
+
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Android build artifacts (only if using prebuild or bare workflow)
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+
+# iOS build artifacts (only if using prebuild or bare workflow)
+ios/Pods/
+ios/Podfile.lock
+ios/build/
+ios/DerivedData/
+
+# Misc
+*.keystore
+
+
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+web-report/
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Project related
+.env
+.expo
+.expo-shared
+.vscode
